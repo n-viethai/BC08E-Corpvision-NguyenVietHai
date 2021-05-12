@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
+    <!-- Flaticon -->
+
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+    <!-- Slick -->
+
+    <link rel="stylesheet" href="./lib/slick/slick.css" />
+    <link rel="stylesheet" href="./lib/slick/slick-theme.css">
+
+
+    <!-- animate.css -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/darkmode.css"/>
+    <title>CorpVision</title>
+</head>
+
+<body>
+    <!---------------------------------HEADER---------------------------------->
+
+    <header class="header" id="header">
+        <div class="grid">
+            <div class="section__container">
+                <nav class="nav__bar" id="nav__bar">
+                    <a href="" class="nav__brand">
+                        <i class="fi-rs-align-right nav__brand-icon"></i>
+                        <h1 class="nav__brand-title" id="nav__brand-title">
+                            Corp Vision
+                        </h1>
+                        <p class="nav__brand-sub-title" id="nav__brand-sub-title">
+                            Vision to your Future
+                        </p>
+                    </a>
+
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__item-link">HOME</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__item-link">ABOUT</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__item-link">SERVICES</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__item-link">PAGES</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__item-link">CONTACT</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__function">
+                        <div class="nav__search">
+                            <div class="nav__search-btn" id="open-nav-search">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="nav__toggle-dark-light">
+                            <button class="mybtn mybtn--dark-light" id="btnDarkMode">
+                                <i class="far fa-sun" id="iconLight"></i>
+                                <i class="far fa-moon" id="iconDark"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <form action="" method="GET" class="nav__search-form" id="nav-form">
+                        <input type="text" name="" id="nav-form-input" class="nav__search-form-input" placeholder="Start Typing" autofocus/>
+                        <div class="nav__search-form-close-button" id="close-nav-search"/>
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </form>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!---------------------------------CAROUSEL---------------------------------->
+
+    <section class="carousel" id="carousel">
+        <div class="carousel__container">
+            <div class="carousel__content">
+                <div class="carousel__item carousel__item--1">
+                    <img src="./images/b1.jpg" alt="" class="carousel__item-img" />
+
+                    <div class="carousel__item-info">
+                        <div class="grid">
+                            <h1 class="carousel__item-title">
+                                We will solve your issues our vision to your future
+                            </h1>
+                            <p class="carousel__item-sub-title">
+                                Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
+                                dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea. 
+                            </p>
+                            <button class="mybtn mybtn--primary">
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel__item-overlay"></div>
+                </div>
+                <div class="carousel__item carousel__item--2">
+                    <img src="./images/b2.jpg" alt="" class="carousel__item-img" />
+
+                    <div class="carousel__item-info">
+                        <div class="grid">
+                            <h1 class="carousel__item-title">
+                                Embracing success do our best, need best advice          
+                            </h1>
+                            <p class="carousel__item-sub-title">
+                                Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
+                                dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea. 
+                            </p>
+                            <button class="mybtn mybtn--primary">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel__item-overlay"></div>
+                </div>
+                <div class="carousel__item carousel__item--3">
+                    <img src="./images/b3.jpg" alt="" class="carousel__item-img" />
+
+                    <div class="carousel__item-info">
+                        <div class="grid">
+                            <h1 class="carousel__item-title">
+                                Digital transformation driven by technology
+                            </h1>
+                            <p class="carousel__item-sub-title">
+                                Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
+                                dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea. 
+                            </p>
+                            <button class="mybtn mybtn--primary">
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel__item-overlay"></div>
+                </div>
+                <div class="carousel__item carousel__item--4">
+                    <img src="./images/b4.jpg" alt="" class="carousel__item-img" />
+
+                    <div class="carousel__item-info">
+                        <div class="grid">
+                            <h1 class="carousel__item-title">
+                                For those who believe in leaving a mark
+                            </h1>
+                            <p class="carousel__item-sub-title">
+                                Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
+                                dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea. 
+                            </p>
+                            <button class="mybtn mybtn--primary">
+                                Contact Now
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel__item-overlay"></div>
+                </div>
+            </div>
+            <div class="carousel__wave-animation">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280" id="svgWaveAnimation" >
+                    <path fill-opacity="1">
+                    <animate attributeName="d" dur="20000ms" repeatCount="indefinite" values="M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z; M0,160L48,181.3C96,203,192,245,288,234.7C384,224,480,160,576,133.3C672,107,768,117,864,138.7C960,160,1056,192,1152,197.3C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;												 M0,64L48,74.7C96,85,192,107,288,133.3C384,160,480,192,576,170.7C672,149,768,75,864,80C960,85,1056,171,1152,181.3C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
+                        M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;"></animate>
+                    </path>
+                </svg>
+            </div>
+            
+        </div>
+    </div>
+    </section>
+
+    <!---------------------------------ABOUT---------------------------------->
+
+    <section class="about section__main" id="about">
+        <div class="grid">
+            <div class="section__container">
+                <div class="about__list">
+                    <div class="about__item about__item-left">
+                        <div class="about__item-content">
+                            <p class="section__sub-title">
+                                ABOUT US
+                            </p>
+                            <h1 class="section__title">
+                                We make the best strategies for you, Enhancing your success
+                            </h1>
+                            <p class="section__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ut ex ea. 
+                            </p>
+                            <div class="about__item-job-list">
+                                <div class="about__item-job">
+                                    <i class="about__item-job-icon fas fa-check-circle"></i>
+                                    <h1 class="about__item-job-name">
+                                        <a href="#url">
+                                            UI/UX Design and Development
+                                        </a>
+                                    </h1>
+                                </div>
+                                <div class="about__item-job">
+                                    <i class="about__item-job-icon fas fa-check-circle"></i>
+                                    <h1 class="about__item-job-name">
+                                        <a href="#url">
+                                            Branding Design and Identity
+                                        </a>
+                                    </h1>
+                                </div>
+                                <div class="about__item-job">
+                                    <i class="about__item-job-icon fas fa-check-circle"></i>
+                                    <h1 class="about__item-job-name">
+                                        <a href="#url">
+                                            Mobile App Design and Development
+                                        </a>
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__item about__item-right">
+                        <div class="about__item-content">
+                            <div class="about__item-img-big">
+                                <img src="./images/a.jpg" alt="haha" class="about__item-img"/>
+                            </div>
+                            <div class="about__item-img-small">
+                                <img src="./images/c1.jpg" alt="" class="about__item-img"/>
+                                <img src="./images/c4.jpg" alt="" class="about__item-img"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------AGENCY---------------------------------->
+    
+    <section class="agency section__main" id="agency">
+        <div class="grid">
+            <div class="section__container">
+                <div class="agency__list agency__list-left">
+                    <div class="agency__item">
+                        <div class="agency__item__content">
+                            <p class="section__sub-title">
+                                Every day brings new challenges
+                            </p>
+                            <h1 class="section__title">
+                                Creative agency focused on vision, product and people
+                            </h1>
+                            <p class="section__description">
+                                Aurabitur id gravida risus. Fusce eget ex fermentum, 
+                                ultricies nisi ac sed, lacinia est. Quisque ut lectus consequat, 
+                                venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit. 
+                                Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum. 
+                            </p>
+                            <button class="mybtn mybtn--primary mybtn--primary--no-opacity"> Discover More </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="agency__list agency__list-right">
+                    <div class="agency__list-right-wrapper">
+                        <div class="agency__item">
+                            <div class="agency__item-content">
+                                <img src="./images/icon1.png" alt="" class="agency__item-icon"/>
+                                <p class="agency__item-name">
+                                    Our Process
+                                </p>
+                            </div>
+                        </div>
+                        <div class="agency__item">
+                            <div class="agency__item-content">
+                                <img src="./images/icon2.png" alt="" class="agency__item-icon"/>
+                                <p class="agency__item-name">
+                                    How We Help
+                                </p>
+                            </div>
+                        </div>
+                        <div class="agency__item">
+                            <div class="agency__item-content">
+                                <img src="./images/icon3.png" alt="" class="agency__item-icon"/>
+                                <p class="agency__item-name">
+                                    UI/UX Design
+                                </p>
+                            </div>
+                        </div>
+                        <div class="agency__item">
+                            <div class="agency__item-content">
+                                <img src="./images/icon4.png" alt="" class="agency__item-icon"/>
+                                <p class="agency__item-name">
+                                    Creative Ideas
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------SERVICES---------------------------------->
+
+    <section class="service section__main" id="service">
+        <div class="grid">
+            <div class="section__container">
+                <h1 class="section__title">
+                    Always there for your care, our Services
+                </h1>
+                <div class="service__list">
+                    <div class="service__item">
+                        <div class="service__item-content">
+                            <a href="#url" class="service__item-img-link">
+                                <img src="./images/s1.jpg" alt="" class="service__item-img"/>
+                            </a>
+                            <div class="service__item-info">
+                                <a href="#url" class="service__item-title">
+                                    Work Expertise
+                                </a>
+                                <p class="service__item-desc">
+                                    Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..
+                                </p>
+                                <a href="#url" class="mybtn">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service__item">
+                        <div class="service__item-content">
+                            <a href="#url" class="service__item-img-link">
+                                <img src="./images/s2.jpg" alt="" class="service__item-img"/>
+                            </a>
+                            <div class="service__item-info">
+                                <a href="#url" class="service__item-title">
+                                    Product Development
+                                </a>
+                                <p class="service__item-desc">
+                                    Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..
+                                </p>
+                                <a href="#url" class="mybtn">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service__item">
+                        <div class="service__item-content">
+                            <a href="#url" class="service__item-img-link">
+                                <img src="./images/s3.jpg" alt="" class="service__item-img"/>
+                            </a>
+                            <div class="service__item-info">
+                                <a href="#url" class="service__item-title">
+                                    Software Development
+                                </a>
+                                <p class="service__item-desc">
+                                    Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..
+                                </p>
+                                <a href="#url" class="mybtn">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!---------------------------------PROJECT---------------------------------->
+
+    <section class="project section__main" id="project">
+        <div class="grid">
+            <div class="section__container">
+                <p class="section__sub-title">
+                    Our Gallery
+                </p>
+                <h1 class="section__title">
+                    Successful projects we've done
+                </h1>
+                <div class="project__list">
+                    <div class="project__item">
+                        <div class="project__item-content">
+                            <img src="./images/c1.jpg" alt="" class="project__item-img">
+                            <div class="project__item-info">
+                                <div class="project__item-info-wrapper">
+                                    <p class="project__item-info-name">
+                                        Project 1
+                                    </p>
+                                    <p class="project__item-info-des">
+                                        Quisque ut lectus, eros et, sed commodo risus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__item">
+                        <div class="project__item-content">
+                            <img src="./images/c2.jpg" alt="" class="project__item-img">
+                            <div class="project__item-info">
+                                <div class="project__item-info-wrapper">
+                                    <p class="project__item-info-name">
+                                        Project 2
+                                    </p>
+                                    <p class="project__item-info-des">
+                                        Quisque ut lectus, eros et, sed commodo risus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__item">
+                        <div class="project__item-content">
+                            <img src="./images/c3.jpg" alt="" class="project__item-img">
+                            <div class="project__item-info">
+                                <div class="project__item-info-wrapper">
+                                    <p class="project__item-info-name">
+                                        Project 3
+                                    </p>
+                                    <p class="project__item-info-des">
+                                        Quisque ut lectus, eros et, sed commodo risus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__item">
+                        <div class="project__item-content">
+                            <img src="./images/c4.jpg" alt="" class="project__item-img">
+                            <div class="project__item-info">
+                                <div class="project__item-info-wrapper">
+                                    <p class="project__item-info-name">
+                                        Project 4
+                                    </p>
+                                    <p class="project__item-info-des">
+                                        Quisque ut lectus, eros et, sed commodo risus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__item">
+                        <div class="project__item-content">
+                            <img src="./images/c5.jpg" alt="" class="project__item-img">
+                            <div class="project__item-info">
+                                <div class="project__item-info-wrapper">
+                                    <p class="project__item-info-name">
+                                        Project 5
+                                    </p>
+                                    <p class="project__item-info-des">
+                                        Quisque ut lectus, eros et, sed commodo risus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__item">
+                        <div class="project__item-content">
+                            <img src="./images/c6.jpg" alt="" class="project__item-img">
+                            <div class="project__item-info">
+                                <div class="project__item-info-wrapper">
+                                    <p class="project__item-info-name">
+                                        Project 6
+                                    </p>
+                                    <p class="project__item-info-des">
+                                        Quisque ut lectus, eros et, sed commodo risus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project__line"></div>
+
+                <div class="project__list project__list--brand">
+                    <div class="project__item">
+                        <img src="./images/brand1.png" alt="" class="project__brand-img">
+                    </div>
+                    <div class="project__item">
+                        <img src="./images/brand6.png" alt="" class="project__brand-img">
+                    </div>
+                    <div class="project__item">
+                        <img src="./images/brand3.png" alt="" class="project__brand-img">
+                    </div>
+                    <div class="project__item">
+                        <img src="./images/brand4.png" alt="" class="project__brand-img">
+                    </div>
+                    <div class="project__item">
+                        <img src="./images/brand5.png" alt="" class="project__brand-img">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!---------------------------------SKILL---------------------------------->
+
+    <section class="skill section__main" id="skill">
+        <div class="grid">
+            <div class="section__container">
+                <div class="skill__list">
+                    <div class="skill__item">
+                        <div class="skill__item-content">
+                            <img src="./images/about.jpg" alt="" class="skill__item-img"/>
+                        </div>
+                    </div>
+                    <div class="skill__item skill__item-right">
+                        <div class="skill__item-content">
+                            <p class="section__sub-title">
+                                Your success is our success
+                            </p>
+                            <h1 class="section__title">
+                                Web design, marketing & SEO solutions that get results
+                            </h1>
+                            <div class="skill__progress-bar skill__progress-bar--marketing">
+                                <div class="skill__progess-info">
+                                    <h1 class="skill__progress-name">
+                                        Marketing 
+                                    </h1>
+                                    <p class="skill__progress-number">
+                                        80%
+                                    </p>
+                                </div>
+                                <div class="skill__progress-line">
+                                    <div class="skill__progress-line-active"></div>
+                                </div>
+                            </div>
+                            <div class="skill__progress-bar skill__progress-bar--design">
+                                <div class="skill__progess-info">
+                                    <h1 class="skill__progress-name">
+                                        Responsive Web design 
+                                    </h1>
+                                    <p class="skill__progress-number">
+                                        95%
+                                    </p>
+                                </div>
+                                <div class="skill__progress-line">
+                                    <div class="skill__progress-line-active"></div>
+                                </div>
+                            </div>
+                            <div class="skill__progress-bar skill__progress-bar--analytics">
+                                <div class="skill__progess-info">
+                                    <h1 class="skill__progress-name">
+                                        Analytics 
+                                    </h1>
+                                    <p class="skill__progress-number">
+                                        60%
+                                    </p>
+                                </div>
+                                <div class="skill__progress-line">
+                                    <div class="skill__progress-line-active"></div>
+                                </div>
+                            </div>
+                            <div class="skill__progress-bar skill__progress-bar--dev">
+                                <div class="skill__progess-info">
+                                    <h1 class="skill__progress-name">
+                                        Web Development  
+                                    </h1>
+                                    <p class="skill__progress-number">
+                                        85%
+                                    </p>
+                                </div>
+                                <div class="skill__progress-line">
+                                    <div class="skill__progress-line-active"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------FEEDBACK---------------------------------->
+
+    <section class="feedback section__main" id="feedback">
+        <div class="grid">
+            <div class="section__container">
+                <p class="section__sub-title">
+                    Happy Clients Feedback
+                </p>
+                <h1 class="section__title">
+                    Reviews and Testimonials
+                </h1>
+
+                <div class="feedback__slider">
+                    <div class="feedback__item">
+                        <div class="feedback__item-content">
+                            <p class="feedback__item-info">
+                                Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                Dolores molestias adipisci dolo amet!. Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Esse architecto est ea sunt eligendi cum?
+                            </p>
+                            <div class="feedback__item-customer">
+                                <img src="./images/team1.jpg" alt="" class="feedback__item-img"/>
+                                <div class="feedback__item-customer-info">
+                                    <p class="feedback__item-customer-name">
+                                        John Wilson
+                                    </p>
+                                    <p class="feedback__item-customer-job">
+                                        Student
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__item-content">
+                            <p class="feedback__item-info">
+                                Lorem ipsum dolor sit amet elit. Velit beatae laudantium
+                                voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                Dolores molestias adipisci dolo amet!.
+                            </p>
+                            <div class="feedback__item-customer">
+                                <img src="./images/team2.jpg" alt="" class="feedback__item-img"/>
+                                <div class="feedback__item-customer-info">
+                                    <p class="feedback__item-customer-name">
+                                        John Wilson
+                                    </p>
+                                    <p class="feedback__item-customer-job">
+                                        Student
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__item-content">
+                            <p class="feedback__item-info">
+                                Lorem ipsum dolor sit amet elit. Velit beatae laudantium
+                                voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                Dolores molestias adipisci dolo amet!.
+                            </p>
+                            <div class="feedback__item-customer">
+                                <img src="./images/team3.jpg" alt="" class="feedback__item-img"/>
+                                <div class="feedback__item-customer-info">
+                                    <p class="feedback__item-customer-name">
+                                        John Wilson
+                                    </p>
+                                    <p class="feedback__item-customer-job">
+                                        Student
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__item-content">
+                            <p class="feedback__item-info">
+                                Lorem ipsum dolor sit amet elit. Velit beatae laudantium
+                                voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                Dolores molestias adipisci dolo amet!.
+                            </p>
+                            <div class="feedback__item-customer">
+                                <img src="./images/team4.jpg" alt="" class="feedback__item-img"/>
+                                <div class="feedback__item-customer-info">
+                                    <p class="feedback__item-customer-name">
+                                        John Wilson
+                                    </p>
+                                    <p class="feedback__item-customer-job">
+                                        Student
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------NEWS---------------------------------->
+
+    <section class="news section__main" id="news">
+        <div class="grid">
+            <div class="section__container">
+                <p class="section__sub-title">
+                    Latest News
+                </p>
+                <h1 class="section__title">
+                    Our insight and articles
+                </h1>
+                <div class="news__list">
+                    <div class="news__item">
+                        <div class="news__item-content">
+                            <div class="news__item-img">
+                                <a href="#url">
+                                    <img src="./images/blog1.jpg" alt=""/>
+                                </a>
+                            </div>
+                            <div class="news__item-heading">
+                                <p class="news__item-sub-title">
+                                    <a href="#url">
+                                        Startup Business
+                                    </a>
+                                </p>
+                                <h1 class="news__item-title">
+                                    <a href="#url">
+                                        Hello world! 
+                                    </a>
+                                </h1>
+                            </div>
+                            <div class="news__item-footer">
+                                <img src="./images/logo.jpg" alt="" class="news__item-logo">
+                                <div class="news__item-footer-info">
+                                    <p class="news__item-footer-brand">
+                                        <span>
+                                            by
+                                        </span>
+                                        W3Layouts
+                                    </p>
+                                    <p class="news__item-footer-time">
+                                        April 1, 2021
+                                    </p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="news__item">
+                        <div class="news__item-content">
+                            <div class="news__item-img">
+                                <a href="#url">
+                                    <img src="./images/blog2.jpg" alt=""/>
+                                </a>
+                            </div>
+                            <div class="news__item-heading">
+                                <p class="news__item-sub-title">
+                                    <a href="#url">
+                                        Startup Business
+                                    </a>
+                                </p>
+                                <h1 class="news__item-title">
+                                    <a href="#url">
+                                        Companies in NY launched a joint project on a three-tower hall 
+                                    </a>
+                                </h1>
+                            </div>
+                            <div class="news__item-footer">
+                                <img src="./images/logo.jpg" alt="" class="news__item-logo">
+                                <div class="news__item-footer-info">
+                                    <p class="news__item-footer-brand">
+                                        <span>
+                                            by
+                                        </span>
+                                        W3Layouts
+                                    </p>
+                                    <p class="news__item-footer-time">
+                                        April 1, 2021
+                                    </p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="news__item">
+                        <div class="news__item-content">
+                            <div class="news__item-img">
+                                <a href="#url">
+                                    <img src="./images/blog3.jpg" alt=""/>
+                                </a>
+                            </div>
+                            <div class="news__item-heading">
+                                <p class="news__item-sub-title">
+                                    <a href="#url">
+                                        Marketing Strategy
+                                    </a>
+                                </p>
+                                <h1 class="news__item-title">
+                                    <a href="#url">
+                                        Design breakthrough upgrades the product and ready to launch 
+                                    </a>
+                                </h1>
+                            </div>
+                            <div class="news__item-footer">
+                                <img src="./images/logo.jpg" alt="" class="news__item-logo">
+                                <div class="news__item-footer-info">
+                                    <p class="news__item-footer-brand">
+                                        <span>
+                                            by
+                                        </span>
+                                        W3Layouts
+                                    </p>
+                                    <p class="news__item-footer-time">
+                                        April 1, 2021
+                                    </p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------SUBCRIBE---------------------------------->
+
+    <section class="subcribe section__main">
+        <div class="grid">
+            <div class="section__container">
+                <div class="subcribe__info">
+                    <h1 class="section__title">
+                        Let’s find out how to work together
+                    </h1>
+                    <p class="section__description">
+                        Lorem ipsum dolor sit amet elit. 
+                        Velit beatae rem ullam dolore nisi esse quasi, 
+                        sit amet. Lorem ipsum dolor sit amet elit.
+                    </p>
+                    <form action="" class="subcribe__form">
+                        <div class="subcribe__form-icon">
+                            <i class="fab fa-telegram-plane"></i>
+                        </div>
+                        <input type="text" class="subcribe__form-input" placeholder="Your Email Address"/>
+                        <button class="mybtn mybtn--subcribe">subcribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------FOOTER---------------------------------->
+
+    <footer class="footer section__main">
+        <div class="grid">
+            <div class="section__container">
+                <div class="footer__list">
+                    <div class="footer__item footer__item--width2">
+                        <div class="footer__item-content">
+                            <h1 class="footer__item-title">
+                                <a href="" class="nav__brand">
+                                    <i class="fi-rs-align-right nav__brand-icon"></i>
+                                    <h1 class="nav__brand-title" id="nav__brand-title">
+                                        Corp Vision
+                                    </h1>
+                                    <p class="nav__brand-sub-title" id="nav__brand-sub-title">
+                                        Vision to your Future
+                                    </p>
+                                </a>                      
+                            </h1>
+                            <p class="footer__item-desc">
+                                Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, 
+                                ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor 
+                                sit amet Semper at elit team advisors.  
+                            </p>
+                            <div class="footer__item-social">
+                                <a href="#url">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#url">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#url">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#url">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__item footer__item--width2">
+                        <div class="footer__item-content">
+                            <h1 class="footer__item-title">
+                                Contact Info            
+                            </h1>
+                            <p class="footer__item-desc">
+                                Address : Corp Vision, 343 marketing, #21 cravel 1st lane street, NY - 62617.  
+                            </p>
+                            <p class="footer__item-desc">
+                                Phone Number : +1(21) 234 4567
+                            </p>
+                            <p class="footer__item-desc">
+                                Email :
+                                <a href="mailto:viethai1309@gmail.com">
+                                    viethai1309@gmail.com
+                                </a>
+                            </p>
+                            <p class="footer__item-desc">
+                                Support :
+                                <a href="mailto:viethai1309@gmail.com">
+                                    info@support.com
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <div class="footer__item-content">
+                            <h1 class="footer__item-title">
+                                Categories            
+                            </h1>
+                            <p class="footer__item-desc">
+                                <a href="#url">
+                                    Marketing Strategy
+                                </a>
+                            </p>
+                            <p class="footer__item-desc">
+                                <a href="#url">
+                                    Startup Business
+                                </a>
+                            </p>
+                            <p class="footer__item-desc">
+                                <a href="#url">
+                                    Web development
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <div class="footer__item-content">
+                            <h1 class="footer__item-title">
+                                Meta           
+                            </h1>
+                            <p class="footer__item-desc">
+                                <a href="#url">
+                                    Log in
+                                </a>
+                            </p>
+                            <p class="footer__item-desc">
+                                <a href="#url">
+                                    Entries feed
+                                </a>
+                            </p>
+                            <p class="footer__item-desc">
+                                <a href="#url">
+                                    Comments feed
+                                </a>
+                            </p>
+                            <p class="footer__item-desc">
+                                <a href="#url">
+                                    WordPress.org
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!---------------------------------COPPY RIGHT---------------------------------->
+
+    <section class="coppyright">
+        <p>
+            © 2021 Corp Vision All Rights Reserved | WordPress Theme by 
+            <a href="#url">
+                W3Layouts.
+            </a>
+        </p>
+    </section>
+
+
+    <!-- slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+    <script src="./lib/slick/slick.min.js"></script>
+
+    <script>
+
+        // carousel
+
+        $(document).ready(function () {
+            $('.carousel__content').slick({
+                fade :true,
+                autoplay:true,
+                autoplaySpeed: 3000
+            });
+        });
+
+        // feedback slider
+
+        $(document).ready(function () {
+            $('.feedback__slider').slick({
+                dots :true,
+                arrows:false
+            });
+        });
+    </script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

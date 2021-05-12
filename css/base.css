@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5% !important;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #00a63f;
+
+  --black-color: #000;
+
+  --white-color: #fff;
+
+  --silver-color: #f0f0f0;
+
+  --blue-color: #204b87;
+
+  --heading-color: #3f3a64;
+
+  --header--height: 10rem;
+
+  --font-size-normal: 1.8rem;
+  --font-size-heading: 6.4rem;
+
+  --line-height: 3.2rem;
+}
+
+/* -------------------------------------------- */
+
+.grid {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.mybtn {
+  display: inline-block;
+  text-decoration: none;
+  /* background-color: transparent; */
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  padding: 1.2rem 4.8rem;
+  border-radius: 5rem;
+  min-width: 12rem;
+  transition: all 0.3s linear;
+}
+
+.mybtn--primary {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 1.6rem 4.8rem;
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  opacity: 0;
+}
+
+.mybtn--primary--no-opacity {
+  opacity: 1;
+}
+
+.mybtn.mybtn--primary:hover {
+  background-color: #008030;
+}
+
+/* ------------------animation--------------------- */
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ------------------Back--To-TOP--------------------- */
+
+.ontop {
+  position: fixed;
+  z-index: 99999999999999;
+  bottom: 1.6rem;
+  right: 1.6rem;
+  cursor: pointer;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  transition: all 0.3s linear;
+}
+
+.ontop:hover {
+  background-color: #777;
+}
+
+.ontop:hover i {
+  color: var(--white-color);
+}
+
+.ontop i {
+  font-size: 2.4rem;
+  line-height: 4rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* ---------------------owl -carousel------------------ */
+
+.owl-theme .owl-dots .owl-dot span {
+  background-color: #ff9800;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: rgba(255, 153, 0, 0.5);
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 3.2rem;
+}

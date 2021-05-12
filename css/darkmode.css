@@ -1,0 +1,181 @@
+.carousel__wave-animation .svg__color--dark {
+  fill: #151421;
+}
+
+.section__main.bg-dark-1 {
+  background-color: #151421;
+}
+
+.section__main.bg-dark-2 {
+    background-color: #100F19;
+}
+
+.section__main.bg-dark-1 .section__sub-title,
+.section__main.bg-dark-2 .section__sub-title {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.section__main.bg-dark-1 .section__title,
+.section__main.bg-dark-2 .section__title {
+  color: var(--white-color);
+}
+
+.section__main.bg-dark-1 .section__description,
+.section__main.bg-dark-2 .section__description {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* header */
+
+.header.bg-dark-1 {
+  background-color: #151421 !important;
+}
+
+.header.bg-dark-1 .nav__brand-title {
+  color: var(--white-color) !important;
+}
+
+.header.bg-dark-1 .nav__brand-sub-title {
+  color: var(--white-color) !important;
+}
+
+.header.bg-dark-1 .nav__item-link {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.header.bg-dark-1 .mybtn.mybtn--dark-light {
+  color: var(--white-color) !important;
+}
+
+/* carousel */
+
+.carousel.dark-mode .carousel__content .slick-prev::before,
+.carousel.dark-mode .carousel__content .slick-next::before {
+    background-color: #151421 ;
+    color: var(--white-color);
+}
+
+/* about */
+
+.about.bg-dark-1 .about__item-left .about__item-job-name a {
+  color: var(--white-color);
+}
+
+/* agency */
+
+.agency.bg-dark-2 {
+
+}
+
+.agency.bg-dark-2 .agency__list-right .agency__item-content {
+    background-color: #151421;
+}
+
+.agency.bg-dark-2  .agency__list-right .agency__item-name {
+    color: var(--white-color);
+}
+
+.agency.bg-dark-2  .agency__list-right .agency__item-name:hover{
+    color: var(--primary-color);
+}
+
+/* service */
+
+.service.bg-dark-1 .service__item-title {
+  background-color: #151421;
+  color: var(--white-color);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.service.bg-dark-1 .service__item-content:hover .service__item-title {
+    color: var(--primary-color);
+}
+
+.service.bg-dark-1 .service__item-desc {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.service.bg-dark-1 .service__item-info .mybtn {
+  color: var(--white-color);
+}
+
+.service.bg-dark-1 .service__item-info .mybtn:hover {
+  color: var(--primary-color);
+}
+
+/* project */
+
+.project.bg-dark-2 .project__line {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* skill */
+
+.skill.bg-dark-1 .skill__progress-line {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.skill.bg-dark-1 .skill__progress-line-active::before {
+  background-color: transparent;
+}
+
+.skill.bg-dark-1 .skill__progress-name,
+.skill.bg-dark-1 .skill__progress-number{
+    color: var(--white-color);
+}
+
+/* feedback */
+
+.feedback.bg-dark-2 .feedback__item-info {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.feedback.bg-dark-2  .feedback__item-customer-name {
+    color: var(--white-color);
+}
+
+.feedback.bg-dark-2 .feedback__item-customer-job {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.feedback.bg-dark-2  .feedback__slider .slick-dots li button::before {
+    color: #213364;
+}
+
+/* news */
+
+.news.bg-dark-1 .news__item-content {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.news.bg-dark-1 .news__item-heading {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.news.bg-dark-1 .news__item-sub-title a {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.news.bg-dark-1 .news__item-title a {
+  color: var(--white-color);
+}
+
+.news.bg-dark-1 .news__item-title a:hover {
+  color: var(--primary-color);
+}
+
+.news.bg-dark-1 .news__item-footer-brand {
+  color: var(--white-color);
+}
+
+.news.bg-dark-1 .news__item-footer-brand:hover {
+  color: var(--primary-color);
+}
+
+.news.bg-dark-1 .news__item-footer-brand span {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.news.bg-dark-1 .news__item-footer-time {
+  color: rgba(255, 255, 255, 0.4);
+}
